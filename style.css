@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* общие стили */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background: #1C1C1C;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+header {
+    padding: 25px 0;
+    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--logo {}
+
+.header--nav {}
+
+.header--list {
+    display: flex;
+    gap: 30px;
+}
+
+.header--nav a {
+    font-size: 14px;
+    opacity: 0.7;
+    transition: all 500ms;
+}
+
+.header--nav a.active {
+    opacity: 1
+}
+
+.header--nav a:hover {
+    opacity: 0.9
+}
+
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15px;
+    width: 165px;
+    height: 50px;
+    background: #F6762C;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
