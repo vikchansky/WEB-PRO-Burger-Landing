@@ -29,18 +29,13 @@ ul {
 
 header {
     padding: 25px 0;
-    
 }
 
-header .container{
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.header--logo {}
-
-.header--nav {}
 
 .header--list {
     display: flex;
@@ -61,8 +56,6 @@ header .container{
     opacity: 0.9
 }
 
-
-
 .btn {
     display: flex;
     align-items: center;
@@ -78,4 +71,184 @@ header .container{
 
 .btn:hover {
     opacity: 0.7;
+}
+
+/* welcome */
+.main {}
+
+.welcome {
+    box-sizing: border-box;
+    min-height: 100vh9;
+    margin-top: -100px;
+    padding: 240px 0;
+    background: url("images/welcome-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-text {
+
+    width: 550px;
+    margin-bottom: 42px;
+}
+
+
+.welcome h4 {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.welcome h1 {
+    font-size: 57px;
+    margin-bottom: 37px;
+}
+
+.welcome p {
+    font-size: 18px;
+}
+
+/* список еды */
+
+.Food-list .container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 10px;
+    padding: 115px 0;
+}
+
+.card {
+    width: 260px;
+    overflow: hidden;
+    background: #312F30;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    margin-bottom: 28px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.card p {
+    font-size: 16px;
+    padding: 0 20px;
+    padding-bottom: 35px;
+}
+
+/* Order */
+
+.order {
+    background: #312F30;
+    padding: 60px 0;
+}
+
+.order .container {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+
+.order-img {
+    max-width: 470px;
+    margin-right: 150px;
+}
+
+.order-text {
+    max-width: 370px;
+}
+
+.order-text h2 {
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+
+.order-text p {
+    font-size: 14px;
+    opacity: 0.7;
+    margin-bottom: 14px;
+}
+
+.order-price {
+    color: #F6762C;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.order-oldPrice {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #f6762c;
+    opacity: 0.5;
+}
+
+.order .btn {
+    margin-top: 10px;
+}
+
+.product-section{
+    padding: 150px 0;
+}
+
+.product-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.product-card {
+    box-sizing: border-box;
+    width: 555px;
+    height: 300px;
+    padding: 60px 30px 60px 290px;
+}
+
+.product-card:nth-child(even){
+    padding: 60px 290px 60px 30px;
+}
+
+.product-card h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.product-card p {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.product-card .btn {
+    margin-top: 10px;
+}
+
+.btn--small {
+    width: 141px;
+    height: 39px;
+}
+
+.card-Queen {
+    background: url("images/product-1.jpg");
+}
+
+.card-Pizza {
+    background: url("images/product-2.jpg");
+}
+
+.card-Burger {
+    background: url("images/product-3.jpg");
+}
+
+.card-Johns {
+    background: url("images/product-4.jpg");
 }
